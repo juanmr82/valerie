@@ -4,7 +4,7 @@
 
 To run on windows (Please tell me you have windows)
 
-Install pywin32 (Recommended using virtual environments)
+Install pywin32 using pip (Recommended using virtual environments)
 
 ## Usage
 Simply Run the code on your IDE. Input the date when asked. No, you can't say "no" <br>
