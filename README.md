@@ -2,6 +2,8 @@
 
 ## Requirements
 
+To run on windows (Please tell me you have windows)
+
 Install pywin32 (Recommended using virtual environments)
 
 ## Usage
