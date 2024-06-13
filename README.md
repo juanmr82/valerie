@@ -1,18 +1,33 @@
-# Asking a Date to Valerie (Beginner Edition)
+# Asking a Date to Valerie (I am not really a FE Developer Edition)
 
 ## Requirements
 
-If you are using windows and Outlook: 
-  * Install pywin32 using pip (Recommended using virtual environments)
+Install Flask using pip (Recommended using Virtual Environments)
+```console 
+pip insall Flask
+```
+
+Install Requests using pip Recommended using Virtual Environments) 
+```console 
+pip insall requests
+```
 
 ## Usage
-Simply Run the code on your IDE. Input the date when asked. No, you can't say "no" <br>
+
+Run app.py using your IDE or on the console: 
+```console 
+python app.py
+```
+Navigate to 
+```console 
+http://localhost:5000
+```
+The date can be enter manually or using the date picker on the right of the input. No, you can't say "no" <br>
 This was done during a short coffee break, so no, it is not the most advanced code ever,
 but it has been done with passion ;-)
 
 ## Upgrades
-Next tool to be released as a web app with a proper frontend and backend.
+Maybe also sending customized messages or giving date options :-)
 
 ## Donations
-
-Contact me
+I accept food
