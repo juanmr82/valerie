@@ -2,7 +2,8 @@
 
 ## Requirements
 
-Install pywin32 (Recommended using virtual environments)
+If you are using windows and Outlook: 
+  * Install pywin32 using pip (Recommended using virtual environments)
 
 ## Usage
 Simply Run the code on your IDE. Input the date when asked. No, you can't say "no" <br>
