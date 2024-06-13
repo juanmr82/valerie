@@ -1,19 +1,23 @@
+import os
 from datetime import date
 import calendar
-import win32com.client as win32
 
 
 def write_email(date):
     """So I am assuming you are using Outlook, which is the most corporate tool ever. And one of the worst ones"""
     try:
-        outlook = win32.Dispatch('outlook.application')
-        if outlook is None:
+        if os.name == 'nt':
+            import win32com.client as win32
+            outlook = win32.Dispatch('outlook.application')
+            if outlook is None:
+                return -1
+            mail = outlook.CreateItem(0)
+            mail.To = "juanmr82@gmail.com"
+            mail.Subject = f"Our date on {date}"
+            mail.HtmlBody = f"Juan, lets meet on {date} in Munich"
+            mail.Display(True)
+        else:
             return -1
-        mail = outlook.CreateItem(0)
-        mail.To = "juanmr82@gmail.com"
-        mail.Subject = f"Our date on {date}"
-        mail.HtmlBody = f"Juan, lets meet on {date} in Munich"
-        mail.Display(True)
     except:
         return -1
 
