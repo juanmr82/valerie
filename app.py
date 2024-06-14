@@ -15,7 +15,7 @@ def index():
 def notify_date():
     date = request.json.get('date')
 
-    # Make a POST request to external API
+    # Make a POST request to NTFY Topic valerie-date
     url = 'https://ntfy.sh/valerie-date'
     payload = f"Valerie woudl like to go on a date on {date}"
 
